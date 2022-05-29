@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "name":"Aashirvaad Atta",
+            "imgurl":"https://asset20.ckassets.com/resources/image/ckseller/CKS-Grocery-000012_1-1611748780.jpg",
+            "price":150
+        },
+        {
+            "name":"Horlicks",
+            "imgurl":"https://asset20.ckassets.com/resources/image/ckseller/CKS-Grocery-000145_1-1611748800.jpg",
+            "price":350
+        },
+        {
+            "name":"Bournvita",
+            "imgurl":"https://asset20.ckassets.com/resources/image/ckseller/CKS-Grocery-000035_1-1611748784.jpg",
+            "price":250
+        },
+        {
+            "name":"Quaker Oats",
+            "imgurl":"https://asset20.ckassets.com/resources/image/ckseller/CKS-Grocery-000223_1-1611748823.jpg",
+            "price":150
+        }
+    ]
+}

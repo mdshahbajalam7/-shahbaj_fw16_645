@@ -1,0 +1,215 @@
+
+    [
+        {
+           "payment":"cash",
+            "votes":"25",
+            "reviews":"250",
+            "cost":130,
+            "categories":"Super 6s Bucket Meal",
+            "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/snoupnucmont4ltthl9k",
+            "name":"American, Snacks",
+            "rating":"1.5"
+
+        },
+        {
+            "payment":"cash",
+             "votes":"125",
+             "reviews":"25",
+             "cost":50,
+             "categories":"Cheeni Paratha",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yny0mgg0qq3ujm4a59pf",
+             "name":"Paratha Point",
+             "rating":"4.1"
+ 
+         },
+         {
+            "payment":"cash",
+             "votes":"121",
+             "reviews":"1250",
+             "cost":250,
+             "categories":"Hindpiri, Kanka",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/q91kktpf3xg1fd6rl4jf",
+             "name":"Murga Tikka",
+             "rating":"2.7"
+ 
+         },
+         {
+            "payment":"cash",
+             "votes":125,
+             "reviews":"210",
+             "cost":"100",
+             "categories":"Ratu, Kumhartoli",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/st8kra2mmjygeix0tywf",
+             "name":"Cake A Lishious Ratu Road",
+             "rating":"1"
+ 
+         },
+         {
+            "payment":"cash",
+             "votes":"1252",
+             "reviews":250,
+             "cost":"300",
+             "categories":"Indian, Chinese",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/hr8e8ljx1mrhrtjb9shg",
+             "name":"Kuppuswami",
+             "rating":"4.1"
+ 
+         },
+         {
+            "payment":"cash",
+             "votes":"1252",
+             "reviews":"2501",
+             "cost":320,
+             "categories":"Paneer Dum Biryani",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/jvdpaae8lffgycwzi9tg",
+             "name":"Biryani By Kilo",
+             "rating":"4.2"
+ 
+         },
+         {
+            "payment":"cash",
+             "votes":"125",
+             "reviews":"251",
+             "cost":270,
+             "categories":"Pizzas, Fast Food",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lopyfw8rtuoqowkkbugj",
+             "name":"Pizza Hut",
+             "rating":"1.7"
+ 
+         },
+         {
+            "payment":"card",
+             "votes":"125",
+             "reviews":251,
+             "cost":"270",
+             "categories":"Biryani, Mughlai",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/smzyci2van9wkfkzn3i8",
+             "name":"Behrouz Biryani",
+             "rating":"4.2"
+         },
+         {
+            "payment":"card",
+             "votes":"12",
+             "reviews":"21",
+             "cost":100,
+             "categories":"Snacks",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/v0jtwxrn4cavtcufvg23",
+             "name":"Hot Bread Omelette",
+             "rating":"1"
+         },
+         {
+            "payment":"card",
+             "votes":"121",
+             "reviews":"211",
+             "cost":200,
+             "categories":"Indian, Chinese",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/u0fxhhuunqbaauwkojkl",
+             "name":"Food Bazaar",
+             "rating":"3.1"
+         },
+         {
+            "payment":"card",
+             "votes":"1211",
+             "reviews":"2112",
+             "cost":200,
+             "categories":"Indian, Chinese",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/t7fjwcmi1ncrqzayyu3f",
+             "name":"Cocktail Khichdee",
+             "rating":"3.8"
+         },
+         {
+            "payment":"card",
+             "votes":"111",
+             "reviews":"112",
+             "cost":300,
+             "categories":"North Indian, South Indian",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/hfatbtcjvlbgzgl8jv3o",
+             "name":"The Best",
+             "rating":"3.8"
+         },
+         {
+            "payment":"card",
+             "votes":"1111",
+             "reviews":"1112",
+             "cost":250,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/vsj0eahhmzrjmqczfbzd",
+             "name":"Punjabi Kitchen",
+             "rating":"4.0"
+         },
+         {
+            "payment":"card",
+             "votes":"11",
+             "reviews":"111",
+             "cost":150,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wdzbfmpedfb9flbcrrk6",
+             "name":"Chicken Hot N Sour Soup",
+             "rating":"4.0"
+         },
+         {
+            "payment":"all",
+             "votes":"113",
+             "reviews":"3111",
+             "cost":120,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ep3n7zoc80cmsxudjiex",
+             "name":"Kullhad",
+             "rating":"4.0"
+         },
+         {
+            "payment":"all",
+             "votes":"113",
+             "reviews":"3111",
+             "cost":100,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/eygrip7xmhvwdaahinoq",
+             "name":"Paneer Butter Masala",
+             "rating":"3.0"
+         },
+         {
+            "payment":"all",
+             "votes":"114",
+             "reviews":"311",
+             "cost":80,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/zty6ze41fbleg28xrax7",
+             "name":"Chicken Curry",
+             "rating":"3.0"
+         },
+         {
+            "payment":"all",
+             "votes":"1141",
+             "reviews":"3111",
+             "cost":70,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/ebdqjpz51e0e4kepmkec",
+             "name":"Veg Roll",
+             "rating":"3.0"
+         },
+         {
+            "payment":"all",
+             "votes":"1141",
+             "reviews":"3111",
+             "cost":290,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/h1udinmk5slpjsbvmac6",
+             "name":"Special Thali",
+             "rating":"4.5"
+         },
+         {
+            "payment":"all",
+             "votes":"11",
+             "reviews":"111",
+             "cost":60,
+             "categories":"North Indian, Tandoor",
+             "imgurl":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/bqowy9al2dmv19lca9zi",
+             "name":"Veg Fried Rice",
+             "rating":"2.5"
+         }
+
+         
+         
+    ]
+
+

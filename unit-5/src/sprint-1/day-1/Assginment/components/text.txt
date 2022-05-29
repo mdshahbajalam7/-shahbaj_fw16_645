@@ -1,0 +1,16 @@
+
+import './App.css';
+import useTimeout from './sprint-1/day-1/Assginment/components/useTimeout';
+
+function App() {
+  const ready = useTimeout(5000)
+  return (
+    <div className="App">
+      {ready && "Ready"}
+      {!ready && "Not Ready"}
+  
+    </div>
+  );
+}
+
+export default App;

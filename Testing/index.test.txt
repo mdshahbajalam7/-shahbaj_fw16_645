@@ -1,0 +1,34 @@
+ const {sum,mult,validate} = require ("./index")
+
+ const {test,expect,describe}= require("@jest/globals")
+
+
+test("should work on all postive numbers",function (){
+    expect(sum(2,2)).toBe(4)
+    expect(sum(0,0)).toBe(0)
+    expect(sum(100,0)).toBe(100)
+});
+
+describe("Test sum function with  characters",function(){
+    test("it shoul;d not work with characters",function(){
+        expect(sum("a","b")).toBeUndefined()
+    })
+})
+describe("Test sum function with  number multiply",function(){
+    test("it shoul;d not work with number multiply",function(){
+        expect(mult(2,6)).toBe(12)
+        expect(mult(3,5)).toBe(15)
+    })
+})
+describe("Validate Password",function(){
+    test("should be validate",function(){
+        expect(validate("aaaaaa1A").status).toBe(true)
+        expect(validate("aaaaaa1A").message).toBe("password verification passed")
+
+    })
+    test("should not validate",function(){
+        expect(validate("aaaaaa1a").status).toBe(false)
+        expect(validate("aaaaaa11").message).toBe("password must contain at least upercase ")
+
+    })
+})

@@ -1,0 +1,49 @@
+// import { useMemo, useState } from 'react';
+import './App.css';
+import Accordian from './sprint-1/day-2/We/Accordian';
+// import Accordian from './sprint-1/day-2/We/Accordian';
+import OtpInput from './sprint-1/day-2/We/Components/OtpInput';
+
+function App() {
+  const data = [
+    {
+      desc:
+        "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.",
+      title: "This is panel header 1",
+    },
+    {
+      desc:
+        "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.",
+        title: "This is panel header 2",
+    },
+    {
+      desc:
+        "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.",
+        title: "This is panel header 3",
+    },
+    {
+      desc:
+        "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.",
+        title: "This is panel header 4",
+    },
+    {
+      desc:
+        "A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.",
+        title: "This is panel header 5",
+    },
+  ];
+  const handlechange = (otp:string)=>{
+    console.log("Receved otp ",otp)
+
+  }
+
+  return (
+    <div className="App">
+      <Accordian data={data}/>
+      {/* <Memotimer/> */}
+      <OtpInput totalInputs={4} onChange={handlechange}  />
+    </div>
+  );
+}
+
+export default App;

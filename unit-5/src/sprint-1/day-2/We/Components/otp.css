@@ -1,0 +1,17 @@
+.otp{
+    color: red;
+    font-size: 18px;
+}
+.otpinput{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.Acccontainer{
+    width: 400px; 
+ }

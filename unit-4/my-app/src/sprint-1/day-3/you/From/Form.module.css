@@ -1,0 +1,23 @@
+.grid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: blue; */
+}
+.maindiv{
+    border: 1px solid red;
+    width: fit-content;
+    margin-left: 37%;
+    background-color: aquamarine;
+}
+.CHECK{
+    width: 20px;
+    height: 20px;
+}
+.sub{
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+{
+  "laptopdata": [
+    {
+      "id": "5",
+      "model": "Dell",
+      "make_year": "2021",
+      "operating_system": "windows 10",
+      "screen_height": "16",
+      "screen_width": "20",
+      "price": "49500"
+    }, 
+     {
+      "id": "1",
+      "model": "Dell261",
+      "make_year": 2021,
+      "operating_system": "windows",
+      "screen_height": 13,
+      "screen_width": 15.6,
+      "price": 46999
+    },
+    {
+      "model": "dell vostro",
+      "id": "2",
+      "make_year": "2022",
+      "operating_system": "windows10-11generation",
+      "screen_height": "13",
+      "screen_width": "15",
+      "price": "50000"
+    },
+    {
+      "model": "inspiron",
+      "id": "3",
+      "make_year": "2011",
+      "operating_system": "window 11, 10geretion ",
+      "screen_height": "15",
+      "screen_width": "15",
+      "price": "30000"
+    },
+    {
+      "model": "inspiron 3500",
+      "id": "4",
+      "make_year": "2010",
+      "operating_system": "window 11, 10geretion ",
+      "screen_height": "14",
+      "screen_width": "16",
+      "price": "28000"
+    },
+    {
+      "id": "6",
+      "model": "hp",
+      "make_year": "2022",
+      "operating_system": "windows",
+      "screen_height": "15",
+      "screen_width": "18",
+      "price": "50000"
+    }
+  ]
+}

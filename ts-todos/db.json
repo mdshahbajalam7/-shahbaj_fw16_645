@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "LEARN TYPESCRIPT",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "Have tea",
+      "id": 2
+    },
+    {
+      "status": false,
+      "title": "LEARN REACT",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.formdiv{
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 40%;
+    margin: auto;
+    background-color: aquamarine;
+
+}
+.formdiv input{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40%;
+    font-size: 20px;
+    /* background-color: teal; */
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+td,tr{
+    border: 1px solid black;
+    margin: auto;
+    font-size: 20px;
+    background-color: aqua;
+    
+}
+.table{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.button{
+    margin-top: 10px;
+    width: 8%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}

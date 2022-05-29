@@ -1,0 +1,45 @@
+ function sum(a,b){
+     if(typeof a==="string" && typeof b==="string"){
+         return;
+     }
+     return a+b
+ }
+ function mult(a,b){
+    return a*b
+}
+
+const validate = (pass)=>{
+    const lowercase = "abcdefghijklmnopqrstuvwxyz".split("")
+    const upercase = lowercase.map((e)=>e.toUpperCase())
+    const  digits = "1234567890".split("")
+    if(pass.length<8){
+        return{
+            status:false,
+            message:"min 8 char required"
+        }
+    }
+    if(!pass.split("").find((e)=>lowercase.includes(e))){
+        return{
+            status:false,
+            message:" Atleast one lowercase needed"
+        }
+    }
+    if(!pass.split("").find((e)=>upercase.includes(e))){
+        return{
+            status:false,
+            message:"Atleast one uppercase needed"
+        }
+    }
+    if(!pass.split("").find((e)=>digits.includes(e))){
+        return{
+            status:false,
+            message:"Atleast one digit is needed"
+        }
+    }
+    // return{
+    //     status:true,
+    //     message:"np"
+    // }   
+}
+
+  module.exports={sum,mult,validate}

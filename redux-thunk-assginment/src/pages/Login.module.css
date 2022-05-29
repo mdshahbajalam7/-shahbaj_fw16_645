@@ -1,0 +1,54 @@
+.navbar{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    margin: auto;
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.form input{
+    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+}
+.formdiv{
+    margin-top: 20px;
+    border: 1px solid red;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     background-color: crimson;
+}
+.submit{
+    margin-left: 80px;
+    /* width:80%; */
+    border-radius: 10px;
+    /* background-color: black; */
+}
+.homediv{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    gap:30px;
+    border: 1px solid red;
+}
+.homediv .maindiv{
+    border: 1px solid black;
+}
+.task{
+    text-align: center;
+    /* margin-left: 10px; */
+}

@@ -1,0 +1,6 @@
+export const GET_DATA="GET_DATA"
+export const REQUEST_DATA="REQUEST_DATA"
+export const ERROR_DATA="ERROR_DATA"
+export const UPDATE_DATA="UPDATE_DATA"
+export const EDIT_DATA="EDIT_DATA"
+export const ADD_DATA="ADD_DATA"

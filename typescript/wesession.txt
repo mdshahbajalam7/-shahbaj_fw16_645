@@ -1,0 +1,131 @@
+Compilation Vs Transpilation
+
+Compilation
+
+From High level language to Low level language
+Low level usually is machine code (eg: binary) or bytecode
+generated code is generally not human readable, it's for machine only
+eg: C, C++ -> .exe
+Transpilation
+
+From high level language to high level language
+Generated code is usually human readable
+Generated code may need to go through one more compilation step
+eg:
+from const Heading =
+Hello
+to -> const Heading = React.createElement("h1", null, "Hello")
+eg:
+from es6 const x = 1 to es3 var x = 1
+Statically Typed vs Dynamically Typed
+
+Dynamically Typed
+
+Types are not known at compile time
+Generally slower
+JS, Python, Ruby
+eg: const x = 1;
+eg: const y = "hello";
+Generally less safer
+Statically Typed
+
+Types are known at compile time
+Generally faster than Dynamically typed
+Generally Safer
+C, C++, Go, Rust, Java, Typescript
+eg: int x = 1
+eg: string y = "Hello";
+Typescript
+
+Statically Typed
+Just Javascript
+Traspiles to JS
+eg: const x: string = "hello";
+eg: const y: number = 1;
+const z: string = 10; // error
+
+<.............................................class session.............>
+// for(let a=0;a<5;a++){
+//     console.log(a)
+// }
+// console.log("hello typescript");
+
+// const my_name: string="md shahbaj alam"
+// const my_age: number=29
+// const ismarried:boolean=true
+// if(ismarried===true){
+//     console.log("True")
+// }else{
+//     console.log("False");    
+// }
+
+// const arr: number[]=[1,2]
+// const arr2: number[]=[...arr,3]
+
+// function add(x,y){
+//     return x+y
+// }
+
+// add(1,2)
+// add("s","s")
+
+
+type User={
+    userName:string,
+    age:number,
+    ismarried:boolean,
+    salary:number
+}
+
+
+const masai:User={
+    userName:"masai School",
+    age:21,
+    ismarried:true,
+    salary:100000
+}
+
+console.log(masai)
+
+
+interface pet {
+    name:string,
+    age:number,
+}
+
+const dog:pet={
+    name:"tommy",
+    age:3
+}
+
+type Animal={
+    noOflegs:number,
+    hasWings:boolean
+}
+
+type dog = {
+    food:string
+}
+
+const mydong: dog & Animal={
+    food:"padigree"
+}
+
+const mypets:dog[]=[{food:" 1"},{food:"2"},{food:"3"}]
+
+
+enum Color{
+    RED="RED",
+    GREEN="GREEN",
+    BLUE="BLUE"
+}
+let red : Color.RED="RED"
+
+
+npm i typescript
+npm run build
+npm init -y
+npm install @types
+in package.json
+"build": "tsc index.ts",
+"build:watch":"tsc index.ts --watch"

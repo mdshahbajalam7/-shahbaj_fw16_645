@@ -1,0 +1,74 @@
+{
+  "Employee_details": [
+    {
+      "name": "chand",
+      "Age": 29,
+      "Address": "samastipur",
+      "Department": "Marketing",
+      "Salary": 140000,
+      "marital_state": "No",
+      "id": "1"
+    },
+    {
+      "name": "shahbaj alam",
+      "Age": 21,
+      "Address": "Mumbai",
+      "Department": "Book",
+      "Salary": 100000,
+      "marital_state": "No",
+      "id": "2"
+    },
+    {
+      "name": "Guddu",
+      "Age": 26,
+      "Address": "Nallasopara",
+      "Department": "Equpment",
+      "Salary": 140000,
+      "marital_state": "No",
+      "id": "3"
+    },
+    {
+      "name": "Humera",
+      "Age": 9,
+      "Address": "parshuram",
+      "Department": "Accounting",
+      "Salary": 140000,
+      "marital_state": "No",
+      "id": "4"
+    },
+    {
+      "name": "Md shahbaj alam",
+      "Age": "21",
+      "Address": "samastipur",
+      "Department": "Book",
+      "Salary": "2100000",
+      "marital_state": "on",
+      "id": "YbirXGp"
+    },
+    {
+      "name": "Md shahbaj alam",
+      "Age": "21",
+      "Address": "mumbai",
+      "Department": "Equipment",
+      "Salary": "210000",
+      "marital_state": "on",
+      "id": "tZSZD0H"
+    },
+    {
+      "name": "chand",
+      "Age": "22",
+      "Address": "mumbai",
+      "Department": "Equipment",
+      "Salary": "310000",
+      "id": "h7C91gX"
+    },
+    {
+      "name": "Md shahbaj alam",
+      "Age": "22",
+      "Address": "samastipur",
+      "Department": "Book",
+      "Salary": "2100000",
+      "id": "5N0nsTY"
+    }
+  ]
+}

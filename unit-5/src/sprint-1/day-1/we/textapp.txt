@@ -1,0 +1,45 @@
+import { useMemo, useState } from 'react';
+import './App.css';
+import useTimeout from './sprint-1/day-1/Assginment/components/useTimeout';
+import Timer from './sprint-1/day-1/Assginment/Timer Stopwatch/Timer';
+import Todo from './sprint-1/day-1/we/Todo';
+// import TimerStopwatch from './sprint-1/day-1/Assginment/Timer Stopwatch/TimerStopwatch';
+
+function App() {
+  const ready = useTimeout(5000)
+
+  const [ text,settext ]=useState("")
+
+  const fibo =(n:number):number=>{
+    if(n<=1){
+      return n
+    }
+    return fibo(n-1)+fibo(n-2);
+
+  }
+
+  const memoisedfibo=useMemo(()=>{
+    return fibo(Number(text))
+  },[text])
+
+  const calfibo=()=>{
+    console.time("t1")
+    console.log("nth fibo",memoisedfibo)
+    console.timeEnd("t1")
+
+  }
+  return (
+    <div className="App">
+      <input type="text" onChange={(e)=>settext (e.target.value)} />
+      <button onClick={calfibo}>calculate</button>
+      {ready && "Ready"}
+      {!ready && "Not Ready"}
+      {/* <TimerStopwatch/> */}
+      <Todo/>
+      <Timer/>
+  
+    </div>
+  );
+}
+
+export default App;

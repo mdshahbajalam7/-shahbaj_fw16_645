@@ -1,0 +1,18 @@
+.item{
+    border: 1px solid red;
+    display:  grid;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.item img{
+   width: 350px;
+   height: 350px;
+}
+.container{
+    border: 1px solid red;
+    display:  grid;
+    grid-template-columns: repeat(3,1fr);
+    /* height: 400px; */
+
+}

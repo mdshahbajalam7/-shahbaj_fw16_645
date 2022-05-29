@@ -1,0 +1,107 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    /* border: 1px solid red; */
+    width: 650PX;
+    margin-left: 30%;
+    margin-top: -500px;
+}
+.container > div{
+    border:  1px solid black;
+    width: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.mainDiv{
+    display: flex;
+    padding: 1px;
+}
+.namediv{
+    width: 44%;
+}
+.ratingdiv{
+    width: 100px;
+    height: 100px;
+}
+.smalldiv{
+    width: 40px;
+    height: 30px;
+    border: 1px solid teal;
+    background-color: yellowgreen;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.ptag{
+   margin-top: -2px;
+}
+.voterdiv{
+    margin-left: -10px;
+    margin-top: -12px;
+}
+.vot{
+    margin-left: -10px;
+}
+.flex{
+    display: flex;
+    border: 1px solid teal;
+}
+.btn{
+    margin-left: -10px;
+    background-color: yellowgreen;
+    color: cornsilk;
+}
+.input{
+    margin-left: 10px;
+}
+.form{
+    width: 50px;
+    height: 50px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin-left: 450px;
+    height: 40px;
+}
+.button1{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30px;
+    margin-top: 10px;  
+}
+.htag{
+    margin-top: 12px;
+}
+.button2{
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.sort{
+    margin-top: 10px;
+}
+.cashbutton{
+    margin-top: 10px;
+}
+.button3{
+    width: 5%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.container1{
+    width: 28%;
+    height: 500px;
+    margin-top: 10px;
+  } 
+ 
